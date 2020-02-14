@@ -488,6 +488,17 @@ i {
 
     @include backimage;
 
+    &_area {
+        background-color: $white;
+        text-align: center;
+        margin: 0 auto;
+        border: 3px solid $l-brown;
+        border-radius: 5px 5px;
+        position: relative;
+        margin:20px 0;
+        @include shadow;
+    }
+
     &__title {
         @include titlebase;
         @include shadow;
@@ -621,12 +632,17 @@ i {
         margin-bottom: 25px;
 
         &__topic {
-            width: 250px;
-            height: 300px;
+            width: 280px;
+            height: 250px;
             position: relative;
 
-
-            &__title {
+            &_title{
+                float: left;
+                font-size: 1.5rem;
+                padding: 10px 0;
+                color: $brown;
+            }
+            &__img {
                 text-align: center;
                 font-size: 1.5rem;
                 color: $l-orange;
@@ -640,14 +656,14 @@ i {
             &__price {
                 display: block;
                 position: absolute;
-                bottom: 15px;
+                bottom: -15px;
                 right: 0;
                 @include shadow;
 
                 &__bar {
                     padding: 10px;
                     background-color: $white;
-                    color: $l-brown;
+                    color: $orange;
                     font-weight: bold;
                     font-size: 2.2rem;
                     text-align: center;
@@ -668,7 +684,7 @@ i {
     &__topics2 {
 
         &__topic {
-            margin-bottom: 0;
+            margin-bottom: 20px;
         }
     }
 }

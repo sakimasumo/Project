@@ -381,6 +381,17 @@ i {
   background-image: url("../images/pattern.png");
 }
 
+.service_area {
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  border: 3px solid #b78d4a;
+  border-radius: 5px 5px;
+  position: relative;
+  margin: 20px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
 .service__title {
   padding-top: 15px;
   width: 350px;
@@ -525,18 +536,25 @@ i {
 }
 
 .service__topics1__topic, .service__topics2__topic {
-  width: 250px;
-  height: 300px;
+  width: 280px;
+  height: 250px;
   position: relative;
 }
 
-.service__topics1__topic__title, .service__topics2__topic__title {
+.service__topics1__topic_title, .service__topics2__topic_title {
+  float: left;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  color: #4b4539;
+}
+
+.service__topics1__topic__img, .service__topics2__topic__img {
   text-align: center;
   font-size: 1.5rem;
   color: #fbd9b5;
 }
 
-.service__topics1__topic__title img, .service__topics2__topic__title img {
+.service__topics1__topic__img img, .service__topics2__topic__img img {
   width: 100%;
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
 }
@@ -544,7 +562,7 @@ i {
 .service__topics1__topic__price, .service__topics2__topic__price {
   display: block;
   position: absolute;
-  bottom: 15px;
+  bottom: -15px;
   right: 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -552,7 +570,7 @@ i {
 .service__topics1__topic__price__bar, .service__topics2__topic__price__bar {
   padding: 10px;
   background-color: #fff;
-  color: #b78d4a;
+  color: #F4810E;
   font-weight: bold;
   font-size: 2.2rem;
   text-align: center;
@@ -568,7 +586,7 @@ i {
 }
 
 .service__topics2__topic {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .brs {
