@@ -1835,22 +1835,24 @@ p.answer {
         }
 
         &_area{
-            // padding-top: 10px;
+            padding: 10px;
         }
 
         &__topics1,
         &__topics2 {
             width: 95%;
             margin: 0 auto;
+            display: block;
 
             &__topic {
-                margin: 15px;
+                margin: 25px auto;
                 height: auto;
+                float: none;
 
                 &_title {
                     width: 100%;
                     text-align: center;
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
                     padding: 0;
                     height: 30px;
                 }
@@ -1862,7 +1864,7 @@ p.answer {
                     margin: 0 auto;
 
                     &__bar {
-                        font-size: 1.1rem;
+                        font-size: 1.5rem;
                         padding: 5px 0 5px 0;
                     }
                 }
@@ -1871,11 +1873,11 @@ p.answer {
             }
 
             &__topic:first-child {
-                margin: 15px 0;
+                margin: 25px auto;
             }
 
             &__topic:last-child {
-                margin: 15px 0;
+                margin: 25px auto;
             }
         }
 

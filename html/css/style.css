@@ -1709,18 +1709,23 @@ p.answer {
   .service__intro__icon1, .service__intro__icon2, .service__intro__icon3 {
     display: none;
   }
+  .service_area {
+    padding: 10px;
+  }
   .service__topics1, .service__topics2 {
     width: 95%;
     margin: 0 auto;
+    display: block;
   }
   .service__topics1__topic, .service__topics2__topic {
-    margin: 15px;
+    margin: 25px auto;
     height: auto;
+    float: none;
   }
   .service__topics1__topic_title, .service__topics2__topic_title {
     width: 100%;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     padding: 0;
     height: 30px;
   }
@@ -1731,14 +1736,14 @@ p.answer {
     margin: 0 auto;
   }
   .service__topics1__topic__price__bar, .service__topics2__topic__price__bar {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 5px 0 5px 0;
   }
   .service__topics1__topic:first-child, .service__topics2__topic:first-child {
-    margin: 15px 0;
+    margin: 25px auto;
   }
   .service__topics1__topic:last-child, .service__topics2__topic:last-child {
-    margin: 15px 0;
+    margin: 25px auto;
   }
   .service__topics2 {
     margin-bottom: 15px;
