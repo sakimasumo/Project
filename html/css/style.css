@@ -562,15 +562,15 @@ i {
 .service__topics1__topic__price, .service__topics2__topic__price {
   display: block;
   position: absolute;
-  bottom: -15px;
+  bottom: 0px;
   right: 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .service__topics1__topic__price__bar, .service__topics2__topic__price__bar {
   padding: 10px;
-  background-color: #fff;
-  color: #F4810E;
+  background-color: #F4810E;
+  color: #fff;
   font-weight: bold;
   font-size: 2.2rem;
   text-align: center;
@@ -1714,18 +1714,20 @@ p.answer {
     margin: 0 auto;
   }
   .service__topics1__topic, .service__topics2__topic {
-    margin: 0;
+    margin: 15px;
     height: auto;
   }
-  .service__topics1__topic__title, .service__topics2__topic__title {
-    margin-top: 15px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
+  .service__topics1__topic_title, .service__topics2__topic_title {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0;
+    height: 30px;
   }
   .service__topics1__topic__price, .service__topics2__topic__price {
-    width: 95%;
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
     margin: 0 auto;
   }
   .service__topics1__topic__price__bar, .service__topics2__topic__price__bar {
@@ -1733,10 +1735,10 @@ p.answer {
     padding: 5px 0 5px 0;
   }
   .service__topics1__topic:first-child, .service__topics2__topic:first-child {
-    margin: 0;
+    margin: 15px 0;
   }
   .service__topics1__topic:last-child, .service__topics2__topic:last-child {
-    margin: 0;
+    margin: 15px 0;
   }
   .service__topics2 {
     margin-bottom: 15px;
